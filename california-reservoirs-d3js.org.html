@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <!-- original on bl.ocks.org:  http://bl.ocks.org/swingley/e1ea716d6a425cd5c7fd -->
+    <title></title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        background-color: gray;
+        margin: 1em auto;
+        width: 510px;
+      }
+      div.title, div.title a {
+        color: #fff;
+      }
+      div.title {
+        font-family: sans-serif;
+        font-size: 120%;
+        font-weight: 100;
+        padding: 0 0 0.5em 0;
+        text-align: center;
+      }
+      div.container {
+        background: #fff;
+        font-family: sans-serif;
+        font-weight: 100;
+        line-height: 1.2em;
+        padding: 0.5em;
+        position: relative;
+      }
+      div.info a, div.info a:visited {
+        color: #77B6CF;
+      }
+      svg {
+        background-color: #fff;
+      }
+      .graticule {
+        fill: none;
+        stroke: #777;
+        stroke-width: .5px;
+        stroke-opacity: .5;
+      }
+      g.california path {
+        fill: #F7DFAD;
+        stroke: #777;
+      }
+      g.reservoirs circle {
+        fill: #9FDFEF;
+        stroke: #77B6CF;
+      }
+      g.reservoirs circle.selected {
+        stroke: #777;
+        stroke-width: 3;
+      }
+      div.tip {
+        background: #fff;
+        border: 1px solid #777;
+        color: #777;
+        font-size: 90%;
+        line-height: 1.2em;
+        padding: 0.5em;
+        position: absolute;
+        right: 1em;
+        top: 10em;
+        width: 16em;
+      }
+      div.tip img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='title'>
+      California's Largest Reservoirs
+    </div>
+    <div class='container'>
+      <div class='info'>
+        Below is a map of California's reservoirs. Hover or tap any of the circles for more information about the reservoir at that location. Reservoir info was scraped from <a href='https://en.wikipedia.org/wiki/List_of_largest_reservoirs_of_California'>Wikipedia</a> and turned into geojson with a <a href='https://gist.github.com/swingley/e05a6c8193c2a21ba304'>node script</a>.
+      </div>
+      <div class='tip'><em>Reservoir info shown here.</em></div>
+    </div>
+    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-request.v1.min.js"></script>
+    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script>
+      //Width and height
+      var w = 500;
+      var h = 500;
+
+      // Define map projection
+      var albers = d3.geoAlbersUsa()
+        .scale(2000)
+        .translate([ w * 1.5, h * 0.55 ]);
+
+      //Define path generator
+      var path = d3.geoPath().projection(albers);
+
+      var graticule = d3.geoGraticule();
+
+      // Create SVG
+      var svg = d3.select('div.container')
+        .append('svg')
+        .attr('width', w)
+        .attr('height', h);
+      // Add a graticule.
+      svg.append('g').append('path')
+        .datum(graticule)
+        .attr('class', 'graticule')
+        .attr('d', path);
+
+      // Load in GeoJSON data
+      d3.queue()
+        .defer(d3.json, 'california.geojson')
+        .defer(d3.json, 'california-reservoirs-wikipedia.geojson')
+        .await(function(error, california, reservoirs) {
+          // Add a group then add data from GeoJSON feature.
+          svg.append('g').attr('class', 'california').selectAll('path')
+            .data(california.features)
+            .enter()
+            .append('path')
+            .attr('d', path);
+          // Sort reservoirs so small circles show on top.
+          // (Not really necessary since data came from wikipedia ordered
+          // largest to smallest so by default, small was on top of big).
+          reservoirs.features.sort(function(a, b) {
+            return +b.properties.volumeKm - +a.properties.volumeKm;
+          });
+          // Add points for reservoirs.
+          svg.append('g').attr('class', 'reservoirs').selectAll('circle')
+            .data(reservoirs.features)
+            .enter()
+            .append('circle')
+            .attr('cx', function(d) { return albers([d.properties.longitude, d.properties.latitude])[0]; })
+            .attr('cy', function(d) { return albers([d.properties.longitude, d.properties.latitude])[1]; })
+            .attr('r', function(d) { return Math.sqrt(+d.properties.volumeKm * 40); })
+            .on('mouseover', function(d) {
+              d3.select('circle.selected').classed('selected', false);
+              d3.select(this).classed('selected', true);
+              d3.select('div.tip').html(reservoirInfo(d));
+            });
+
+          function reservoirInfo(d) {
+            // TODO:  es2015 template string?
+            var props = d.properties;
+            var content = '<strong>Name</strong>:  ' + props.name + '<br>' +
+              '<strong>County</strong>:  ' + props.county + '<br>' +
+              '<strong>Volume (acre feet)</strong>:  ' + props.volumeAcreFeet + '<br>' +
+              '<strong>Volume (km2)</strong>:  ' + props.volumeKm + '<br>' +
+              '<strong>Outflow</strong>:  ' + props.outflow
+            if ( props.hasOwnProperty('image') && props.image ) {
+              content += '<br><img src=' + props.image + '>';
+            } else {
+              content += '<br><em>No image available</em>';
+            }
+            return content;
+          }
+        });
+    </script>
+  </body>
+</html>

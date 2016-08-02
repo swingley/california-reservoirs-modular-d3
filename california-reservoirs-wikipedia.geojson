@@ -1,0 +1,815 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.35361,
+          40.75417
+        ]
+      },
+      "properties": {
+        "name": "Shasta Lake",
+        "county": "Shasta",
+        "coordinates": "40.75417; -122.35361",
+        "volumeAcreFeet": "4,552,000",
+        "volumeKm": "5.615",
+        "outflow": "Sacramento River",
+        "dam": "Shasta Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Lake_shasta.triddle.jpg/130px-Lake_shasta.triddle.jpg",
+        "latitude": 40.75417,
+        "longitude": -122.35361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.48333,
+          39.53722
+        ]
+      },
+      "properties": {
+        "name": "Lake Oroville",
+        "county": "Butte",
+        "coordinates": "39.53722; -121.48333",
+        "volumeAcreFeet": "3,537,577",
+        "volumeKm": "4.364",
+        "outflow": "Feather River",
+        "dam": "Oroville Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/New_Bidwell_Bar_Bridge_Oroville_CA.jpg/130px-New_Bidwell_Bar_Bridge_Oroville_CA.jpg",
+        "latitude": 39.53722,
+        "longitude": -121.48333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.72333,
+          40.86
+        ]
+      },
+      "properties": {
+        "name": "Trinity Lake",
+        "county": "Trinity",
+        "coordinates": "40.86000; -122.72333",
+        "volumeAcreFeet": "2,448,000",
+        "volumeKm": "3.020",
+        "outflow": "Trinity River",
+        "dam": "Trinity Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Trinity_dam_us_bor.jpg/130px-Trinity_dam_us_bor.jpg",
+        "latitude": 40.86,
+        "longitude": -122.72333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52,
+          38.00056
+        ]
+      },
+      "properties": {
+        "name": "New Melones Lake",
+        "county": "Tuolumne, Calaveras",
+        "coordinates": "38.00056; -120.52000",
+        "volumeAcreFeet": "2,400,000",
+        "volumeKm": "2.960",
+        "outflow": "Stanislaus River",
+        "dam": "New Melones Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/New_Melones_Lake.jpg/130px-New_Melones_Lake.jpg",
+        "latitude": 38.00056,
+        "longitude": -120.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.13111,
+          37.06778
+        ]
+      },
+      "properties": {
+        "name": "San Luis Reservoir",
+        "county": "Merced",
+        "coordinates": "37.06778; -121.13111",
+        "volumeAcreFeet": "2,041,000",
+        "volumeKm": "2.518",
+        "outflow": "San Luis Creek",
+        "dam": "San Luis Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SanLuis-2.jpg/130px-SanLuis-2.jpg",
+        "latitude": 37.06778,
+        "longitude": -121.13111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.37361,
+          37.74167
+        ]
+      },
+      "properties": {
+        "name": "Don Pedro Reservoir",
+        "county": "Tuolumne",
+        "coordinates": "37.74167; -120.37361",
+        "volumeAcreFeet": "2,030,000",
+        "volumeKm": "2.504",
+        "outflow": "Tuolumne River",
+        "dam": "New Don Pedro Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Don_Pedro_Daybreak_-_Day_39_%28293253409%29.jpg/130px-Don_Pedro_Daybreak_-_Day_39_%28293253409%29.jpg",
+        "latitude": 37.74167,
+        "longitude": -120.37361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16361,
+          38.53139
+        ]
+      },
+      "properties": {
+        "name": "Lake Berryessa",
+        "county": "Napa",
+        "coordinates": "38.53139; -122.16361",
+        "volumeAcreFeet": "1,602,000",
+        "volumeKm": "1.976",
+        "outflow": "Putah Creek",
+        "dam": "Monticello Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Morning_glory_spillway.jpg/130px-Morning_glory_spillway.jpg",
+        "latitude": 38.53139,
+        "longitude": -122.16361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.15806,
+          40.22972
+        ]
+      },
+      "properties": {
+        "name": "Lake Almanor",
+        "county": "Plumas",
+        "coordinates": "40.22972; -121.15806",
+        "volumeAcreFeet": "1,308,000",
+        "volumeKm": "1.613",
+        "outflow": "North Feather River",
+        "dam": "Canyon Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/LakeAlmanor2.jpg/130px-LakeAlmanor2.jpg",
+        "latitude": 40.22972,
+        "longitude": -121.15806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1175,
+          38.72389
+        ]
+      },
+      "properties": {
+        "name": "Folsom Lake",
+        "county": "Sacramento",
+        "coordinates": "38.72389; -121.11750",
+        "volumeAcreFeet": "1,120,200",
+        "volumeKm": "1.382",
+        "outflow": "American River",
+        "dam": "Folsom Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Folsom_Dam_USACE_2004.JPG/130px-Folsom_Dam_USACE_2004.JPG",
+        "latitude": 38.72389,
+        "longitude": -121.1175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.28028,
+          37.63639
+        ]
+      },
+      "properties": {
+        "name": "Lake McClure",
+        "county": "Mariposa",
+        "coordinates": "37.63639; -120.28028",
+        "volumeAcreFeet": "1,024,600",
+        "volumeKm": "1.264",
+        "outflow": "Merced River",
+        "dam": "New Exchequer Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lake_McClure_%28822109715%29.jpg/130px-Lake_McClure_%28822109715%29.jpg",
+        "latitude": 37.63639,
+        "longitude": -120.28028
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.32583,
+          36.8325
+        ]
+      },
+      "properties": {
+        "name": "Pine Flat Lake",
+        "county": "Fresno",
+        "coordinates": "36.83250; -119.32583",
+        "volumeAcreFeet": "1,000,000",
+        "volumeKm": "1.233",
+        "outflow": "Kings River",
+        "dam": "Pine Flat Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Pine_Flat_Lake_1.jpg/130px-Pine_Flat_Lake_1.jpg",
+        "latitude": 36.8325,
+        "longitude": -119.32583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.14167,
+          39.39222
+        ]
+      },
+      "properties": {
+        "name": "New Bullards Bar Reservoir",
+        "county": "Yuba",
+        "coordinates": "39.39222; -121.14167",
+        "volumeAcreFeet": "996,103",
+        "volumeKm": "1.229",
+        "outflow": "North Yuba River",
+        "dam": "New Bullards Bar Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/New_Bullards_Bar_Reservoir_pano_cropped.jpg/130px-New_Bullards_Bar_Reservoir_pano_cropped.jpg",
+        "latitude": 39.39222,
+        "longitude": -121.14167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.04167,
+          33.67833
+        ]
+      },
+      "properties": {
+        "name": "Diamond Valley Lake",
+        "county": "Riverside",
+        "coordinates": "33.67833; -117.04167",
+        "volumeAcreFeet": "810,000",
+        "volumeKm": "0.999",
+        "outflow": "Domenigoni Creek",
+        "dam": "West Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/DVLlake.JPG/130px-DVLlake.JPG",
+        "latitude": 33.67833,
+        "longitude": -117.04167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.03417,
+          39.08306
+        ]
+      },
+      "properties": {
+        "name": "Lake Tahoe",
+        "county": "Placer, El Dorado, Douglas (NV), Washoe (NV)",
+        "coordinates": "39.08306; -120.03417",
+        "volumeAcreFeet": "732,000",
+        "volumeKm": "0.903",
+        "outflow": "Truckee River",
+        "dam": "Lake Tahoe Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Stateline%2C_Nevada.jpg/130px-Stateline%2C_Nevada.jpg",
+        "latitude": 39.08306,
+        "longitude": -120.03417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.2425,
+          34.38333
+        ]
+      },
+      "properties": {
+        "name": "Lake Havasu",
+        "county": "San Bernardino, Mohave (AZ), La Paz (AZ)",
+        "coordinates": "34.38333; -114.24250",
+        "volumeAcreFeet": "646,200",
+        "volumeKm": "0.797",
+        "outflow": "Colorado River",
+        "dam": "Parker Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LkHavasu.jpg/130px-LkHavasu.jpg",
+        "latitude": 34.38333,
+        "longitude": -114.2425
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.48222,
+          35.64639
+        ]
+      },
+      "properties": {
+        "name": "Lake Isabella",
+        "county": "Kern",
+        "coordinates": "35.64639; -118.48222",
+        "volumeAcreFeet": "568,000",
+        "volumeKm": "0.701",
+        "outflow": "Kern River",
+        "dam": "Isabella Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/01-2007-LakeIsabella-fromEast.jpg/130px-01-2007-LakeIsabella-fromEast.jpg",
+        "latitude": 35.64639,
+        "longitude": -118.48222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.17056,
+          41.84972
+        ]
+      },
+      "properties": {
+        "name": "Clear Lake Reservoir",
+        "county": "Modoc",
+        "coordinates": "41.84972; -121.17056",
+        "volumeAcreFeet": "527,000",
+        "volumeKm": "0.650",
+        "outflow": "Lost River",
+        "dam": "Clear Lake Dam",
+        "latitude": 41.84972,
+        "longitude": -121.17056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.69333,
+          36.9975
+        ]
+      },
+      "properties": {
+        "name": "Millerton Lake",
+        "county": "Fresno, Madera",
+        "coordinates": "36.99750; -119.69333",
+        "volumeAcreFeet": "520,500",
+        "volumeKm": "0.642",
+        "outflow": "San Joaquin River",
+        "dam": "Friant Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Millerton_Lake_1.jpg/130px-Millerton_Lake_1.jpg",
+        "latitude": 36.9975,
+        "longitude": -119.69333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.96778,
+          38.22389
+        ]
+      },
+      "properties": {
+        "name": "Camanche Reservoir",
+        "county": "San Joaquin, Amador, Calaveras",
+        "coordinates": "38.22389; -120.96778",
+        "volumeAcreFeet": "431,000",
+        "volumeKm": "0.532",
+        "outflow": "Mokelumne River",
+        "dam": "Camanche Dam",
+        "latitude": 38.22389,
+        "longitude": -120.96778
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.00944,
+          38.71806
+        ]
+      },
+      "properties": {
+        "name": "Lake Sonoma",
+        "county": "Sonoma",
+        "coordinates": "38.71806; -123.00944",
+        "volumeAcreFeet": "381,000",
+        "volumeKm": "0.470",
+        "outflow": "Dry Creek",
+        "dam": "Warm Springs Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sonoma_Lake_aerial_view.jpg/130px-Sonoma_Lake_aerial_view.jpg",
+        "latitude": 38.71806,
+        "longitude": -123.00944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.90389,
+          35.74444
+        ]
+      },
+      "properties": {
+        "name": "Lake Nacimiento",
+        "county": "San Luis Obispo",
+        "coordinates": "35.74444; -120.90389",
+        "volumeAcreFeet": "378,480",
+        "volumeKm": "0.467",
+        "outflow": "Nacimiento River",
+        "dam": "Nacimiento Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Lake_Nacimiento.jpg/130px-Lake_Nacimiento.jpg",
+        "latitude": 35.74444,
+        "longitude": -120.90389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.72556,
+          37.93917
+        ]
+      },
+      "properties": {
+        "name": "Hetch Hetchy Reservoir",
+        "county": "Tuolumne",
+        "coordinates": "37.93917; -119.72556",
+        "volumeAcreFeet": "360,000",
+        "volumeKm": "0.444",
+        "outflow": "Tuolumne River",
+        "dam": "O'Shaughnessy Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/HetchHetchyBW01.jpg/130px-HetchHetchyBW01.jpg",
+        "latitude": 37.93917,
+        "longitude": -119.72556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.00528,
+          35.87028
+        ]
+      },
+      "properties": {
+        "name": "Lake San Antonio",
+        "county": "Monterey",
+        "coordinates": "35.87028; -121.00528",
+        "volumeAcreFeet": "335,000",
+        "volumeKm": "0.413",
+        "outflow": "San Antonio River",
+        "dam": "San Antonio Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_San_Antonio_by_Cam_Vilay.jpg/130px-Lake_San_Antonio_by_Cam_Vilay.jpg",
+        "latitude": 35.87028,
+        "longitude": -121.00528
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.60639,
+          34.52
+        ]
+      },
+      "properties": {
+        "name": "Castaic Lake",
+        "county": "Los Angeles",
+        "coordinates": "34.52000; -118.60639",
+        "volumeAcreFeet": "323,700",
+        "volumeKm": "0.399",
+        "outflow": "Castaic Creek",
+        "dam": "Castaic Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Castaic_Lake_1.jpg/130px-Castaic_Lake_1.jpg",
+        "latitude": 34.52,
+        "longitude": -118.60639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.81306,
+          38.15083
+        ]
+      },
+      "properties": {
+        "name": "New Hogan Lake",
+        "county": "Calaveras",
+        "coordinates": "38.15083; -120.81306",
+        "volumeAcreFeet": "317,000",
+        "volumeKm": "0.391",
+        "outflow": "Calaveras River",
+        "dam": "New Hogan Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/USACE_New_Hogan_Lake_and_Dam.jpg/130px-USACE_New_Hogan_Lake_and_Dam.jpg",
+        "latitude": 38.15083,
+        "longitude": -120.81306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.61861,
+          33.90917
+        ]
+      },
+      "properties": {
+        "name": "Prado Flood Control Basin",
+        "county": "Riverside",
+        "coordinates": "33.90917; -117.61861",
+        "volumeAcreFeet": "314,400",
+        "volumeKm": "0.389",
+        "outflow": "Santa Ana River",
+        "dam": "Prado Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Prado_Dam_Coverimage.jpg/130px-Prado_Dam_Coverimage.jpg",
+        "latitude": 33.90917,
+        "longitude": -117.61861
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.82722,
+          39.06167
+        ]
+      },
+      "properties": {
+        "name": "Clear Lake",
+        "county": "Lake",
+        "coordinates": "39.06167; -122.82722",
+        "volumeAcreFeet": "313,000",
+        "volumeKm": "0.386",
+        "outflow": "Cache Creek",
+        "dam": "Cache Creek Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Clear_Lake.jpg/130px-Clear_Lake.jpg",
+        "latitude": 39.06167,
+        "longitude": -122.82722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.54278,
+          39.12528
+        ]
+      },
+      "properties": {
+        "name": "Indian Valley Reservoir",
+        "county": "Lake",
+        "coordinates": "39.12528; -122.54278",
+        "volumeAcreFeet": "300,600",
+        "volumeKm": "0.371",
+        "outflow": "North Fork Cache Creek",
+        "dam": "Indian Valley Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Indian_Valley.jpg/130px-Indian_Valley.jpg",
+        "latitude": 39.12528,
+        "longitude": -122.54278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.90694,
+          38.00556
+        ]
+      },
+      "properties": {
+        "name": "Cherry Lake",
+        "county": "Tuolumne",
+        "coordinates": "38.00556; -119.90694",
+        "volumeAcreFeet": "274,300",
+        "volumeKm": "0.338",
+        "outflow": "Cherry Creek",
+        "dam": "Cherry Valley Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cherry_Lake_Stanislaus_National_Forest.jpg/130px-Cherry_Lake_Stanislaus_National_Forest.jpg",
+        "latitude": 38.00556,
+        "longitude": -119.90694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.33556,
+          34.38583
+        ]
+      },
+      "properties": {
+        "name": "Lake Casitas",
+        "county": "Ventura",
+        "coordinates": "34.38583; -119.33556",
+        "volumeAcreFeet": "254,000",
+        "volumeKm": "0.313",
+        "outflow": "Coyote Creek",
+        "dam": "Casitas Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/CaliforniaLakeCasitas.png/130px-CaliforniaLakeCasitas.png",
+        "latitude": 34.38583,
+        "longitude": -119.33556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.56417,
+          40.62806
+        ]
+      },
+      "properties": {
+        "name": "Whiskeytown Lake",
+        "county": "Shasta",
+        "coordinates": "40.62806; -122.56417",
+        "volumeAcreFeet": "241,100",
+        "volumeKm": "0.297",
+        "outflow": "Clear Creek",
+        "dam": "Whiskeytown Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Whiskeytown_Lake_nps.jpg/130px-Whiskeytown_Lake_nps.jpg",
+        "latitude": 40.62806,
+        "longitude": -122.56417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.4,
+          38.87639
+        ]
+      },
+      "properties": {
+        "name": "Union Valley Reservoir",
+        "county": "El Dorado",
+        "coordinates": "38.87639; -120.40000",
+        "volumeAcreFeet": "230,000",
+        "volumeKm": "0.284",
+        "outflow": "Silver Creek",
+        "dam": "Union Valley Dam",
+        "latitude": 38.87639,
+        "longitude": -120.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.14056,
+          39.47722
+        ]
+      },
+      "properties": {
+        "name": "Stampede Reservoir",
+        "county": "Sierra",
+        "coordinates": "39.47722; -120.14056",
+        "volumeAcreFeet": "226,500",
+        "volumeKm": "0.279",
+        "outflow": "Little Truckee River",
+        "dam": "Stampede Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Stampede_Dam.jpeg/130px-Stampede_Dam.jpeg",
+        "latitude": 39.47722,
+        "longitude": -120.14056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.30694,
+          35.01222
+        ]
+      },
+      "properties": {
+        "name": "Twitchell Reservoir",
+        "county": "Santa Barbara, San Luis Obispo",
+        "coordinates": "35.01222; -120.30694",
+        "volumeAcreFeet": "224,300",
+        "volumeKm": "0.277",
+        "outflow": "Cuyama River",
+        "dam": "Twitchell Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/TwitchellDam.jpeg/130px-TwitchellDam.jpeg",
+        "latitude": 35.01222,
+        "longitude": -120.30694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.85028,
+          38.2575
+        ]
+      },
+      "properties": {
+        "name": "Pardee Reservoir",
+        "county": "Amador, Calaveras",
+        "coordinates": "38.25750; -120.85028",
+        "volumeAcreFeet": "209,950",
+        "volumeKm": "0.259",
+        "outflow": "Mokelumne River",
+        "dam": "Pardee Dam",
+        "latitude": 38.2575,
+        "longitude": -120.85028
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.40972,
+          39.05917
+        ]
+      },
+      "properties": {
+        "name": "Hell Hole Reservoir",
+        "county": "Placer",
+        "coordinates": "39.05917; -120.40972",
+        "volumeAcreFeet": "208,400",
+        "volumeKm": "0.257",
+        "outflow": "Rubicon River",
+        "dam": "Hell Hole Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Upper_hell_hole.jpg/130px-Upper_hell_hole.jpg",
+        "latitude": 39.05917,
+        "longitude": -120.40972
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.98111,
+          34.58667
+        ]
+      },
+      "properties": {
+        "name": "Lake Cachuma",
+        "county": "Santa Barbara",
+        "coordinates": "34.58667; -119.98111",
+        "volumeAcreFeet": "205,000",
+        "volumeKm": "0.253",
+        "outflow": "Santa Ynez River",
+        "dam": "Bradbury Dam",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Aerial-LakeCachumaEastEnd.jpg/130px-Aerial-LakeCachumaEastEnd.jpg",
+        "latitude": 34.58667,
+        "longitude": -119.98111
+      }
+    }
+  ]
+}
